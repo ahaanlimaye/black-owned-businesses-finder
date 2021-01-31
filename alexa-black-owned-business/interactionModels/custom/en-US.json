@@ -1,0 +1,297 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "black owned business",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "BusinessIntent",
+          "slots": [
+            {
+              "name": "category",
+              "type": "companyType"
+            }
+          ],
+          "samples": [
+            "{category}",
+            "I want to buy a {category}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Vintage"
+              }
+            },
+            {
+              "name": {
+                "value": "Toys",
+                "synonyms": [
+                  "lego"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Textiles",
+                "synonyms": [
+                  "cloth"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Swimwear",
+                "synonyms": [
+                  "speedo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Skincare",
+                "synonyms": [
+                  "mask"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Services",
+                "synonyms": [
+                  "it"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Photography",
+                "synonyms": [
+                  "pictures"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Pets",
+                "synonyms": [
+                  "hamster",
+                  "cat",
+                  "dog"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Paper",
+                "synonyms": [
+                  "ink",
+                  "printer",
+                  "paper"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Nailcare",
+                "synonyms": [
+                  "nail polish",
+                  "polish"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Literature",
+                "synonyms": [
+                  "novel",
+                  "book",
+                  "charles dickens"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Jewelry",
+                "synonyms": [
+                  "bracelet",
+                  "ruby",
+                  "ring",
+                  "necklace"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Home Goods",
+                "synonyms": [
+                  "table"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Health",
+                "synonyms": [
+                  "vaccine",
+                  "medicine"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hair",
+                "synonyms": [
+                  "comb",
+                  "hairbrush",
+                  "a haircut"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Footwear",
+                "synonyms": [
+                  "dress shoes",
+                  "nike",
+                  "shoes",
+                  "sneakers"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Food",
+                "synonyms": [
+                  "dinner"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Feminine Care"
+              }
+            },
+            {
+              "name": {
+                "value": "Eyewear",
+                "synonyms": [
+                  "goggles",
+                  "glasses"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Decor",
+                "synonyms": [
+                  "couch"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Cosmetics",
+                "synonyms": [
+                  "makeup"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Coffee \u0026 Tea",
+                "synonyms": [
+                  "coffee",
+                  "tea",
+                  "unicorn frappachino",
+                  "latte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Candle",
+                "synonyms": [
+                  "candle"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Beauty",
+                "synonyms": [
+                  "powder"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bath \u0026 Body",
+                "synonyms": [
+                  "conditioner",
+                  "shampoo",
+                  "body",
+                  "bath",
+                  "soap"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Art",
+                "synonyms": [
+                  "painting"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Apparel",
+                "synonyms": [
+                  "jacket",
+                  "t-shirt",
+                  "hoodie",
+                  "clothes",
+                  "clothing",
+                  "pants",
+                  "shirt",
+                  "hat",
+                  "a hat"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Accessories",
+                "synonyms": [
+                  "watch",
+                  "gloves"
+                ]
+              }
+            }
+          ],
+          "name": "companyType"
+        }
+      ]
+    }
+  },
+  "version": "5"
+}
