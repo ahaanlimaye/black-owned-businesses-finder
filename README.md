@@ -1,7 +1,7 @@
 # Black Owned Business Finder Alexa Skill
 
 **hackMCST VI Project**
-- An Alexa Add-on skill 
+- An Alexa Add-on skill that uses a database to provide users with local businesses owned by people of color for them to support to give more exposure to them.
 
 ## Authors
 - Ahaan Limaye @ahaanlimaye
